@@ -57,17 +57,7 @@ export class QuizzComponent implements OnInit {
     };
 
     this.countA > this.countB ? this.resultado = quizz_questions.results.A : this.resultado = quizz_questions.results.B
-
-
-    switch (this.countA > this.countB) {
-      case true:
-
-        break;
-
-      default:
-        break;
-    }
-
+    
   }
 
 }
